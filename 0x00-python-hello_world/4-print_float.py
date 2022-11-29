@@ -1,4 +1,4 @@
 #!/usr/bin/python3 
- number = 3.14159
- print(f"Float: round(number,2)")
+number = 3.14159
+print("Float: {:0.2f}".format(number))
 
