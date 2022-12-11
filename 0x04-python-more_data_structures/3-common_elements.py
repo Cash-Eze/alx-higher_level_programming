@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-"""
-	return a set of common elem in tw sts
-"""
 
-return (set_1 & set_2)
+def common_elements(set_1, set_2):
+    """
+    returns a set of common elements from two sets
+    """
+    return (set_1 & set_2)
