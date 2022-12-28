@@ -1,4 +1,4 @@
-s module creates a class named Square"""
+#!/usr/bin/python3
 
 
 class Square:
