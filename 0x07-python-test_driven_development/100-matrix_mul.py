@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""
+@author: Amos Hiamatsu
+"""
 
 def check_matrix(matrix, name):
     """
