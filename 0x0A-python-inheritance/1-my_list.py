@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 "A module that defines a class named MyList"
-
-
 class MyList(list):
-    """A class named MyList
-    Attributes:
-    attr1(print_sorted): prints sorted list
+    """
+     class MyList that inherits from list
     """
     def print_sorted(self):
-        """Prints instance"""
-        print(sorted(self))
+        """
+        Public instance method that prints sorted list
+        """
+        list_copy = self[:]
+        list_copy.sort()
+        print(list_copy)
