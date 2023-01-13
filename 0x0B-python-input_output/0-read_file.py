@@ -5,7 +5,7 @@ def read_file(filename="")
     """Reads a text file and print it to the stdout
 
     Args:
-    filename(str): filename
+    filename(str): Filename
     """
     with open(filename, encoding = 'utf-8') as file:
         for line in file:
