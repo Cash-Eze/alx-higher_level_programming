@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Fun,ction of a base file"""
 
+import json
 
 
 class Base:
