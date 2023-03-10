@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""This module defines the function inherit_from
-"""
+"""This module defines the inherits_from function"""
 
-def inherit_from(obj, a_class):
-    """Returns True if obj is instance of class based on inheritance
+def inherits_from(obj, a_class):
+    """
+    Checks if object is an instance of class, or if the object is an instance\
+        of a class that inherited from
     """
     if not isinstance(a_class, type):
         raise TypeError("a_class type must be type")
