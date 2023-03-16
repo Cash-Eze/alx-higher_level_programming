@@ -7,4 +7,3 @@ if (isNaN(parseInt(process.argv[2], 10))) {
     console.log('C is fun');
   }
 }
-
