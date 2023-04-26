@@ -1,12 +1,14 @@
 #!/usr/bin/node
 const request = require('request');
-const url = 'http://swapi.co/api/films/' + process.argv[2];
-let resultDict = {};
+const movieID = parseInt(process.argv[2]);
+const url = 'https://swapi-api.hbtn.io/api/films/' + movieID;
+let data;
+
 request(url, function (error, response, body) {
   if (error) {
     console.log(error);
   } else {
-    resultDict = JSON.parse(body);
-    console.log(resultDict.title);
+    data = JSON.parse(body);
+    console.log(data.title);
   }
-sh: 1: :wq: not found
+});
