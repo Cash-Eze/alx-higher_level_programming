@@ -1,6 +1,7 @@
-
 #!/usr/bin/python3
-"""This module defines the to_json_string function"""
+"""
+    This module defines the to_json_string functio
+"""
 
 
 import json
