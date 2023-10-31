@@ -3,6 +3,7 @@
 inheritace
 """
 
+
 def lookup(obj):
     """returning list of all attributes
     """
